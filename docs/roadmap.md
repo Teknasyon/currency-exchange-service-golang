@@ -1,0 +1,55 @@
+- Web application basics
+  - Project setup and creating a module
+  - Web Application Basics
+  - Routing Requests
+  - Costomizing HTTP Headers
+  - URL query strings
+  - Project structure and organization files (https://github.com/golang-standards/project-layout)
+    - `cmd` folder
+    - `internal` folder
+    - `pkg` folder
+  - Serving static files
+  - The http.Handler interface
+- Configuration and error handling
+  - Managing configuration settings
+  - Leveled logging
+  - Dependency injection
+  - Centralized error handling
+  - Isolating the application routes
+- Database-driven responses
+  - Setting up MySQL
+  - Installing a database driver
+  - Creating a database connection pool
+  - Executing SQL statements
+  - Single-record SQL queries
+  - Multiple-record SQL queries
+  - Transactions and other details
+- Dynamic HTML templates
+  - Displaying dynamic data
+  - Template actions and functions
+  - Caching templates
+  - Catching runtime errors
+  - Common dynamic data
+  - Custom template functions
+- Middleware
+  - How middleware works
+  - Setting security headers
+  - Request logging
+  - Panic recovery
+  - Composable middleware chains
+- Advanced routing
+  - Choosing a router
+  - Clean URLs and method-based routing
+- Testing
+  - Unit testing and sub-tests
+  - Testing HTTP handlers and middleware
+  - Customizing how tests run
+  - Mocking dependencies
+  - Integration testing
+  - Profiling test coverage
+- Docker
+  - Dockerizing Go App
+  - Use multistage build to reduce image size
+- Deploy (GCP) - Bonus
+  - Build a simle CI/CD pipeline
+  - Deploy to GCP Cloud RUN (serverless container runner)
